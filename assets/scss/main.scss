@@ -5,44 +5,72 @@ body {
 .🏡 {
   display: block;
   position: absolute;
-  top: 15%;
-  left: 30%;
+  top: 25%;
+  left: 20%;
 
   .roof {
-    .rooflhstop {
-
-    }
+    z-index: 7;
+    display: block;
+    position: absolute;
     .rooflhs {
-      z-index: 10;
       display: block;
       position: relative;
+      border-style: solid;
+      border-width: 0 150px 110px 150px;
+      border-color: transparent transparent #FF87BD transparent;
+      bottom: 90px;
+      right: 10px;
+      transform: rotate(-7.5deg);
+    }
+    .rooflhsmid{
+      
+    }
+    .roofrhs {
+      display: block;
+      position: absolute;
       height: 0px;
       border-style: solid;
-      border-width: 0 0 80px 110px;
-      border-color: transparent transparent #FF8DAD transparent;
-      transform: rotate(2deg);
-      top: 5px;
+      border-width: 0 150px 130px 150px;
+      border-color: transparent transparent #977FAB transparent;
+      top: -130px;
+      left: 300px;
     }
   }
 
-.frontlhs {
-    .frontlhstop {
+  .front {
+    .frontlhs {
+      z-index: 8;
+      display: block;
+      .frontlhstop {
+        display: block;
+        position: relative;
+        height: 0px;
+        border-style: solid;
+        border-width: 40px 300px 40px 0;
+        border-color: transparent #C8E8DE transparent transparent;
+      }
+      .frontlhsmid {
+        display: block;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-color: #C8E8DE;
+        bottom: 40px;
+      }
+    }
+    .frontrhs {
       z-index: 9;
       display: block;
-      position: relative;
-      height: 0px;
-      border-style: solid;
-      border-width: 10px 0 40px 250px;
-      border-color: transparent transparent transparent #C8E8DE;
+      .frontrhsbtm {
+        display: block;
+        position: relative;
+        width: 300px;
+        height: 340px;
+        background-color: #BBA5CD;
+        left: 300px;
+        bottom: 380px;
+      }
     }
-    .frontlhsbtm {
-      z-index: 9;
-      display: block;
-      position: relative;
-      width: 300px;
-      height: 300px;
-      background-color: #C8E8DE;
-      bottom: 40px;
-    }
-  }
-}
+  } // end front
+
+} // end house
