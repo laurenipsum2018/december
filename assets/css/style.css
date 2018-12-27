@@ -10,30 +10,33 @@ body {
   left: 20%;
 }
 .🏡 .roof {
-  z-index: 7;
   display: block;
   position: absolute;
 }
 .🏡 .roof .rooflhs {
+  z-index: 5;
   display: block;
   position: relative;
   border-style: solid;
-  border-width: 0 150px 110px 150px;
+  border-width: 0 160px 110px 160px;
   border-color: transparent transparent #FF87BD transparent;
-  bottom: 89px;
+  bottom: 91px;
   right: 9px;
   transform: rotate(-7.6deg);
 }
 .🏡 .roof .rooflhsmid {
+  z-index: 5;
   display: block;
   position: absolute;
   border-style: solid;
-  border-width: 110px 150px 0 150px;
+  border-width: 110px 160px 0 150px;
   border-color: #FF87BD transparent transparent transparent;
-  bottom: 110px;
-  left: 150px;
+  bottom: 111.5px;
+  left: 149px;
+  transform: rotate(-7.3deg);
 }
 .🏡 .roof .roofrhs {
+  z-index: 6;
   display: block;
   position: absolute;
   height: 0px;
@@ -44,7 +47,7 @@ body {
   left: 300px;
 }
 .🏡 .front .frontlhs {
-  z-index: 8;
+  z-index: 7;
   display: block;
 }
 .🏡 .front .frontlhs .frontlhstop {
@@ -64,10 +67,10 @@ body {
   bottom: 40px;
 }
 .🏡 .front .frontrhs {
-  z-index: 9;
   display: block;
 }
 .🏡 .front .frontrhs .frontrhsbtm {
+  z-index: 7;
   display: block;
   position: relative;
   width: 300px;
