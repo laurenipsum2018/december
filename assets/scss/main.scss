@@ -52,6 +52,15 @@ body {
     position: absolute;
     left: 10px;
     top: 42px;
+    .window-1-line{
+      z-index: 9;
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 290px;
+      background-color: #C8E8DE;
+      left: 52%;
+    }
     .windowlhs {
       display: block;
       position: relative;
@@ -87,6 +96,16 @@ body {
     position: absolute;
     left: 150px;
     top: 25px;
+
+    .window-2-line{
+      z-index: 9;
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 290px;
+      background-color: #C8E8DE;
+      left: 52%;
+    }
     .windowlhs {
       display: block;
       position: relative;
