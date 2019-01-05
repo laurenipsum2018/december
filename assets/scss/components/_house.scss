@@ -1,0 +1,258 @@
+.🏡 {
+  display: block;
+  position: absolute;
+  top: 34%;
+  left: 32%;
+
+  .roof {
+    display: block;
+    position: absolute;
+    .rooflhs {
+      z-index: 5;
+      display: block;
+      position: relative;
+      border-style: solid;
+      border-width: 0 160px 110px 160px;
+      border-color: transparent transparent #FF87BD transparent;
+      bottom: 91px;
+      right: 9px;
+      transform: rotate(-7.6deg);
+    }
+    .rooflhsmid {
+      z-index: 5;
+      display: block;
+      position: absolute;
+      border-style: solid;
+      border-width: 110px 160px 0 150px;
+      border-color: #FF87BD transparent transparent transparent;
+      bottom: 111.5px;
+      left: 149px;
+      transform: rotate(-7.3deg);
+    }
+    .roofrhs {
+      z-index: 6;
+      display: block;
+      position: absolute;
+      height: 0px;
+      border-style: solid;
+      border-width: 0 150px 130px 150px;
+      border-color: transparent transparent #977FAB transparent;
+      top: -130px;
+      left: 300px;
+    }
+  }
+
+  .window-line-hor{
+    z-index: 9;
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 10px;
+    background-color: #C8E8DE;
+    transform: rotate(-5deg);
+    margin-top: 170px;
+  }
+
+  .window-1 {
+    z-index: 8;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 42px;
+    .window-1-line{
+      z-index: 9;
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 290px;
+      background-color: #C8E8DE;
+      left: 52%;
+    }
+    .windowlhs {
+      display: block;
+      position: relative;
+      height: 0px;
+      border-style: solid;
+      border-width: 30px 120px 150px 0;
+      border-color: transparent #FEF8EE transparent transparent;
+      transform: rotate(7deg);
+    }
+    .windowlhsmid {
+      display: block;
+      position: absolute;
+      width: 122px;
+      height: 240px;
+      background-color: #FEF8EE;
+      top: 23px;
+      left: 8px;
+    }
+    .windowlhsrhs {
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 100px;
+      background-color: #FEF8EE;
+      top: 11px;
+      left: 120px;
+    }
+  }
+
+  .window-2 {
+    z-index: 8;
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+
+    .window-2-line{
+      z-index: 9;
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 290px;
+      background-color: #C8E8DE;
+      left: 52%;
+    }
+    .windowlhs {
+      display: block;
+      position: relative;
+      height: 0px;
+      border-style: solid;
+      border-width: 30px 120px 150px 0;
+      border-color: transparent #FEF8EE transparent transparent;
+      transform: rotate(7deg);
+    }
+    .windowlhsmid {
+      display: block;
+      position: absolute;
+      width: 122px;
+      height: 258px;
+      background-color: #FEF8EE;
+      top: 23px;
+      left: 8px;
+    }
+    .windowlhsrhs {
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 100px;
+      background-color: #FEF8EE;
+      top: 11px;
+      left: 120px;
+    }
+  }
+
+  .door {
+    z-index: 8;
+    display: block;
+    position: absolute;
+    .doorwindowlhs {
+      z-index: 5;
+      display: block;
+      position: absolute;
+      margin: 54px 0 0 463px;
+      width: 80px;
+      height: 132px;
+      background-color: #FEF8EE;
+    }
+    .doorwindowlhsborder {
+      z-index: 4;
+      display: block;
+      position: absolute;
+      margin: 50px 0 0 458px;
+      width: 90px;
+      height: 140px;
+      background-color: #ecceb8;
+    }
+    .doorwindowrhs {
+      z-index: 5;
+      display: block;
+      position: absolute;
+      margin: 54px 0 0 357px;
+      width: 80px;
+      height: 132px;
+      background-color: #FEF8EE;
+    }
+    .doorwindowrhsborder {
+      z-index: 4;
+      display: block;
+      position: absolute;
+      margin: 50px 0 0 352px;
+      width: 90px;
+      height: 140px;
+      background-color: #ecceb8;
+    }
+    .handlelhs {
+      z-index: 3;
+      display: block;
+      position: absolute;
+      width: 4px;
+      height: 40px;
+      background-color: #626260;
+      margin: 200px 0 0 440px;
+    }
+    .handlerhs {
+      z-index: 3;
+      display: block;
+      position: absolute;
+      width: 4px;
+      height: 40px;
+      background-color: #626260;
+      margin: 200px 0 0 456px;
+    }
+    .doordiv {
+      z-index: 2;
+      display: block;
+      position: absolute;
+      margin: 40px 0 0 449px;
+      width: 2px;
+      height: 300px;
+      background-color: #EDD0B5;
+    }
+    .doorbase {
+      z-index: 1;
+      display: block;
+      position: absolute;
+      margin: 40px 0 0 344px;
+      width: 212px;
+      height: 300px;
+      background-color: #FFDEC0;
+    }
+  } // end door
+
+  .front {
+    .frontlhs {
+      z-index: 7;
+      display: block;
+      .frontlhstop {
+        display: block;
+        position: relative;
+        height: 0px;
+        border-style: solid;
+        border-width: 40px 300px 40px 0;
+        border-color: transparent #C8E8DE transparent transparent;
+      }
+      .frontlhsmid {
+        display: block;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-color: #C8E8DE;
+        bottom: 40px;
+      }
+    }
+    .frontrhs {
+      display: block;
+      .frontrhsbtm {
+        z-index: 7;
+        display: block;
+        position: relative;
+        width: 300px;
+        height: 340px;
+        background-color: #BBA5CD;
+        left: 300px;
+        bottom: 380px;
+      }
+    }
+  } // end front
+} // end house
