@@ -142,6 +142,38 @@ body {
   top: 11px;
   left: 120px;
 }
+.🏡 .door {
+  z-index: 8;
+  display: block;
+  position: absolute;
+}
+.🏡 .door .handlelhs {
+  z-index: 3;
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  background-color: #4d4d4c;
+  margin: 190px 0 0 442px;
+}
+.🏡 .door .doordiv {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  margin: 40px 0 0 452px;
+  width: 2px;
+  height: 300px;
+  background-color: #EDD0B5;
+}
+.🏡 .door .doorbase {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  margin: 40px 0 0 346px;
+  width: 210px;
+  height: 300px;
+  background-color: #FFDEC0;
+}
 .🏡 .front .frontlhs {
   z-index: 7;
   display: block;
