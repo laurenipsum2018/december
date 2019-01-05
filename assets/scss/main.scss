@@ -150,20 +150,65 @@ body {
     z-index: 8;
     display: block;
     position: absolute;
+    .doorwindowlhs {
+      z-index: 5;
+      display: block;
+      position: absolute;
+      margin: 54px 0 0 463px;
+      width: 80px;
+      height: 132px;
+      background-color: #FEF8EE;
+    }
+    .doorwindowlhsborder {
+      z-index: 4;
+      display: block;
+      position: absolute;
+      margin: 50px 0 0 458px;
+      width: 90px;
+      height: 140px;
+      background-color: #ecceb8;
+    }
+    .doorwindowrhs {
+      z-index: 5;
+      display: block;
+      position: absolute;
+      margin: 54px 0 0 357px;
+      width: 80px;
+      height: 132px;
+      background-color: #FEF8EE;
+    }
+    .doorwindowrhsborder {
+      z-index: 4;
+      display: block;
+      position: absolute;
+      margin: 50px 0 0 352px;
+      width: 90px;
+      height: 140px;
+      background-color: #ecceb8;
+    }
     .handlelhs {
       z-index: 3;
       display: block;
       position: absolute;
       width: 4px;
       height: 40px;
-      background-color: #4d4d4c;
-      margin: 190px 0 0 442px;
+      background-color: #626260;
+      margin: 200px 0 0 440px;
+    }
+    .handlerhs {
+      z-index: 3;
+      display: block;
+      position: absolute;
+      width: 4px;
+      height: 40px;
+      background-color: #626260;
+      margin: 200px 0 0 456px;
     }
     .doordiv {
       z-index: 2;
       display: block;
       position: absolute;
-      margin: 40px 0 0 452px;
+      margin: 40px 0 0 449px;
       width: 2px;
       height: 300px;
       background-color: #EDD0B5;
@@ -172,8 +217,8 @@ body {
       z-index: 1;
       display: block;
       position: absolute;
-      margin: 40px 0 0 346px;
-      width: 210px;
+      margin: 40px 0 0 344px;
+      width: 212px;
       height: 300px;
       background-color: #FFDEC0;
     }
